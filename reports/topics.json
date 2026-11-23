@@ -1,0 +1,217 @@
+{
+  "tweets_analysed": 19445,
+  "unassigned_tweets": 9,
+  "time_range_utc": [
+    "2015-04-30 21:34:06+00:00",
+    "2015-04-30 22:44:19+00:00"
+  ],
+  "retweet_share": 0.675,
+  "topics": [
+    {
+      "id": 7,
+      "label": "snp / deal / labour",
+      "top_terms": [
+        "snp",
+        "deal",
+        "labour",
+        "deal snp",
+        "scotland",
+        "government",
+        "sturgeon",
+        "ge2015"
+      ],
+      "tweets": 3796,
+      "share_of_tweets": 0.195,
+      "retweet_share": 0.627,
+      "predicted_positive_share": 0.539
+    },
+    {
+      "id": 2,
+      "label": "tories / let / let tories",
+      "top_terms": [
+        "tories",
+        "let",
+        "let tories",
+        "labour",
+        "work",
+        "tories work",
+        "work snp",
+        "going"
+      ],
+      "tweets": 3574,
+      "share_of_tweets": 0.184,
+      "retweet_share": 0.804,
+      "predicted_positive_share": 0.735
+    },
+    {
+      "id": 4,
+      "label": "ukip / asknigelfarage / vote ukip",
+      "top_terms": [
+        "ukip",
+        "asknigelfarage",
+        "vote ukip",
+        "vote",
+        "voting ukip",
+        "voting",
+        "racist",
+        "people"
+      ],
+      "tweets": 2828,
+      "share_of_tweets": 0.145,
+      "retweet_share": 0.648,
+      "predicted_positive_share": 0.594
+    },
+    {
+      "id": 0,
+      "label": "miliband / ed / ed miliband",
+      "top_terms": [
+        "miliband",
+        "ed",
+        "ed miliband",
+        "bbcqt",
+        "ed milliband",
+        "milliband",
+        "tonight",
+        "stage"
+      ],
+      "tweets": 2381,
+      "share_of_tweets": 0.122,
+      "retweet_share": 0.723,
+      "predicted_positive_share": 0.35
+    },
+    {
+      "id": 6,
+      "label": "tory / vote / labour",
+      "top_terms": [
+        "tory",
+        "vote",
+        "labour",
+        "vote labour",
+        "vote tory",
+        "labour tory",
+        "vote ukip",
+        "vote snp"
+      ],
+      "tweets": 1966,
+      "share_of_tweets": 0.101,
+      "retweet_share": 0.578,
+      "predicted_positive_share": 0.546
+    },
+    {
+      "id": 3,
+      "label": "cameron / david / david cameron",
+      "top_terms": [
+        "cameron",
+        "david",
+        "david cameron",
+        "bbcqt",
+        "question",
+        "time",
+        "question time",
+        "tax"
+      ],
+      "tweets": 1905,
+      "share_of_tweets": 0.098,
+      "retweet_share": 0.796,
+      "predicted_positive_share": 0.657
+    },
+    {
+      "id": 1,
+      "label": "farage / nigel / nigel farage",
+      "top_terms": [
+        "farage",
+        "nigel",
+        "nigel farage",
+        "asknigelfarage",
+        "bbc",
+        "ask",
+        "ask nigel",
+        "audience"
+      ],
+      "tweets": 1819,
+      "share_of_tweets": 0.094,
+      "retweet_share": 0.493,
+      "predicted_positive_share": 0.515
+    },
+    {
+      "id": 5,
+      "label": "clegg / nick / nick clegg",
+      "top_terms": [
+        "clegg",
+        "nick",
+        "nick clegg",
+        "bbcqt",
+        "coalition",
+        "time",
+        "tonight",
+        "audience"
+      ],
+      "tweets": 1167,
+      "share_of_tweets": 0.06,
+      "retweet_share": 0.657,
+      "predicted_positive_share": 0.544
+    }
+  ],
+  "top_hashtags": [
+    [
+      "bbcqt",
+      2575
+    ],
+    [
+      "asknigelfarage",
+      1144
+    ],
+    [
+      "ukip",
+      1076
+    ],
+    [
+      "snp",
+      690
+    ],
+    [
+      "ge2015",
+      602
+    ],
+    [
+      "votesnp",
+      282
+    ],
+    [
+      "labour",
+      219
+    ],
+    [
+      "askfarage",
+      204
+    ],
+    [
+      "ge15",
+      157
+    ],
+    [
+      "miliband",
+      137
+    ],
+    [
+      "farage",
+      133
+    ],
+    [
+      "tories",
+      122
+    ],
+    [
+      "plaid15",
+      111
+    ],
+    [
+      "snpbecause",
+      100
+    ],
+    [
+      "snpout",
+      93
+    ]
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "dataset": {
+    "tweets_used": 10000,
+    "train": 8000,
+    "test": 2000,
+    "positive_share": 0.5
+  },
+  "models": {
+    "logistic_regression": {
+      "cv_macro_f1_mean": 0.7698,
+      "cv_macro_f1_std": 0.0084,
+      "test_accuracy": 0.7685,
+      "test_macro_f1": 0.7685,
+      "test_precision": {
+        "negative": 0.7614,
+        "positive": 0.776
+      },
+      "test_recall": {
+        "negative": 0.782,
+        "positive": 0.755
+      },
+      "confusion_matrix": [
+        [
+          782,
+          218
+        ],
+        [
+          245,
+          755
+        ]
+      ]
+    },
+    "naive_bayes": {
+      "cv_macro_f1_mean": 0.7654,
+      "cv_macro_f1_std": 0.0138,
+      "test_accuracy": 0.766,
+      "test_macro_f1": 0.7654,
+      "test_precision": {
+        "negative": 0.7414,
+        "positive": 0.7962
+      },
+      "test_recall": {
+        "negative": 0.817,
+        "positive": 0.715
+      },
+      "confusion_matrix": [
+        [
+          817,
+          183
+        ],
+        [
+          285,
+          715
+        ]
+      ]
+    }
+  },
+  "mcnemar_lr_vs_nb": {
+    "a_right_b_wrong": 106,
+    "a_wrong_b_right": 101,
+    "p_value": 0.7810774798073701
+  },
+  "leakage_check": {
+    "test_accuracy_with_emoticons": 0.9865,
+    "test_accuracy_without_emoticons": 0.7685
+  },
+  "selected_model": "logistic_regression",
+  "top_features_logistic_regression": {
+    "negative": [
+      "miss",
+      "sad",
+      "sorry",
+      "why",
+      "want",
+      "but",
+      "wish",
+      "please",
+      "missing",
+      "weather",
+      "didn",
+      "tired",
+      "can",
+      "feel",
+      "followed me"
+    ],
+    "positive": [
+      "thanks",
+      "happy",
+      "great",
+      "you",
+      "nice",
+      "morning",
+      "thank you",
+      "fback",
+      "ff",
+      "welcome",
+      "awesome",
+      "thank",
+      "cool",
+      "your",
+      "flipkartfashionfriday"
+    ]
+  }
+}
